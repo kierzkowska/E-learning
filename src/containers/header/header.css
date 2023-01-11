@@ -1,0 +1,159 @@
+.learn3__header {
+  display: flex;
+}
+.learn3__header-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-right: 5rem;
+}
+
+.learn3__header-content h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  letter-spacing: -0.04rem;
+}
+
+.learn3__header-content p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: var(--color-text);
+  margin-top: 1.5rem;
+}
+
+.learn3__header-content__input {
+  width: 100%;
+  margin: 2rem 0 1rem;
+  display: flex;
+}
+
+.learn3__header-content__input input {
+  flex: 2;
+  width: 100%;
+  min-height: 50px;
+  background: #e7ebef;
+  font-family: var(--font-family);
+  border: 2px solid #e7ebef;
+  padding: 0 1rem;
+  outline: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #74777a;
+
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.learn3__header-content__input button {
+  flex: 0.6;
+  width: 100%;
+  min-height: 50px;
+  background: #899474;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #404851;
+  cursor: pointer;
+  outline: none;
+  padding: 0 1rem;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.learn3__header-content__people {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  margin-top: 2rem;
+}
+
+.learn3__header-content__people img {
+  width: 181.79px;
+  height: 38px;
+}
+
+.learn3__header-content__people p {
+  margin: 0 0 0 1rem;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 38px;
+  color: #404851;
+  text-align: center;
+}
+
+.learn3__header-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.learn3__header-image img {
+  width: 100%;
+  height: 90%;
+}
+
+@media screen and (max-width: 1050px) {
+  .learn3__header {
+    flex-direction: column;
+  }
+
+  .learn3__header-content {
+    margin: 0 0 3rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .learn3__header h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .learn3__header p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .learn3__header-content__people {
+    flex-direction: column;
+  }
+
+  .learn3__header-content__people p {
+    margin: 0;
+  }
+
+  .learn3__header-content__input input,
+  .learn3__header-content__input button {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .learn3__header h1 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .learn3__header p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .learn3__header-content__input input,
+  .learn3__header-content__input button {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
