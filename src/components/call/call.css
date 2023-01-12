@@ -1,0 +1,69 @@
+.learn3__call {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 2rem;
+  margin: 4rem;
+  border-radius: 1rem;
+  background: var(--gradient-bar);
+}
+
+.learn3__call-content p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 30px;
+  color: #0e0e0e;
+}
+
+.learn3__call-content h3 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 45px;
+  color: #000000;
+}
+.learn3__call-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.learn3__call-button button {
+  background: #899474;
+  color: #ffffff;
+  border-radius: 40px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  min-width: 150px;
+}
+
+@media screen and (max-width: 650px) {
+  .learn3__call {
+    flex-direction: column;
+  }
+  .learn3__call-button {
+    margin: 2rem 0 0;
+  }
+}
+@media screen and (max-width: 550px) {
+  .learn3__call {
+    margin: 4rem 2rem;
+  }
+  .learn3__call-content h3{
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .learn3__call-button button{
+    font-size: 14px;
+    line-height: 28px;
+  }
+}
