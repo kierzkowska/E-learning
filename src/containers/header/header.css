@@ -102,8 +102,9 @@
 
 .learn3__header-image img {
   width: 100%;
-  height: 90%;
+  height: 55%;
 }
+
 
 @media screen and (max-width: 1050px) {
   .learn3__header {
