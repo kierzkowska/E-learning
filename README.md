@@ -17,4 +17,5 @@ Widok stopki:
 
 
 Responsywność aplikacji:
+
 ![Zrzut ekranu 2023-04-03 180557](https://user-images.githubusercontent.com/58340006/229569098-0a3a6e20-5dd8-49b5-8a09-3b50278a9887.png)
