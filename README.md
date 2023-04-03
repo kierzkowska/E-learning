@@ -7,4 +7,5 @@ Widok kolejnych komponentów:
 Widok stopki:
 ![Zrzut ekranu 2023-04-03 180349](https://user-images.githubusercontent.com/58340006/229569035-f775862d-c928-4d71-a4df-3ea6c9cb251c.png)
 Responsywność aplikacji:
+
 ![Zrzut ekranu 2023-04-03 180557](https://user-images.githubusercontent.com/58340006/229569098-0a3a6e20-5dd8-49b5-8a09-3b50278a9887.png)
